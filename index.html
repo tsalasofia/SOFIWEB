@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--
+███████╗ ██████╗ ███████╗██╗██╗    ██╗███████╗██████╗ 
+██╔════╝██╔═══██╗██╔════╝██║██║    ██║██╔════╝██╔══██╗
+███████╗██║   ██║█████╗  ██║██║ █╗ ██║█████╗  ██████╔╝
+╚════██║██║   ██║██╔══╝  ██║██║███╗██║██╔══╝  ██╔══██╗
+███████║╚██████╔╝██║     ██║╚███╔███╔╝███████╗██████╔╝
+╚══════╝ ╚═════╝ ╚═╝     ╚═╝ ╚══╝╚══╝ ╚══════╝╚═════╝ 
+                                                      -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="script.css">
+    <title>SOFIWEB</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#feedback">feedback</a></li>
+        </ul>
+        <button>Contact Me</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h3>websites done <span>right</span></h3>
+            <button>Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="hero.png">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h3>What I Offer</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-world'></i></div>
+                <h4>Professional Websites</h4>
+                 <p>
+                 <span>•</span> Responsive, mobile-friendly designs</p>
+                  <p><span>•</span> Custom-built to fit your brand</p>
+                 <p><span>•</span> SEO optimized for better search visibility</p>
+                 <p><span>•</span> Fast loading and user-friendly interfaces</p>
+                </p>
+              </div>
+          <div class="item">
+                 <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                   <h4>Branding & Logo</h4>
+               
+                 <p><span>•</span> Unique custom logo design</p>
+                  <p><span>•</span> Complete branding solutions</p>
+                 <p><span>•</span> Enhance your brand identity</p>
+                 <p><span>•</span> Memorable and impactful logos </p>
+         </div>
+         <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>Custom Graphic Design</h4>
+                <p><span>•</span> 2D and 3D designs for any purpose</p>
+                <p><span>•</span> Tailored to your specific needs</p>
+                <p><span>•</span> High-quality, professional graphics</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="aboute.png">
+        </div>
+        <div class="right">
+            
+            <h3>About Me</h3>
+            <h4>
+                hi, im <span>Sophie</span>
+            </h4>
+            <p>
+                I specialize in creating responsive websites, unique branding, and high-quality graphic designs that help businesses stand out and succeed online. My journey in the digital world has allowed me to work with a diverse range of clients, from startups to established companies, providing customized solutions that meet their specific needs.
+            </p>
+        </div>
+    </div>
+    <div class="feedback" id="feedback">
+        <h3>Customers Feedback</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "The portfolio website created by SOFIWEB beautifully showcases my artwork and has helped me attract new clients and commissions. I couldn't be happier with the result.
+                </p>
+                <div class="user">
+                    <img src="c1.jpg">
+                    <div class="info">
+                        <h5>Lisa K.</h5>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Working with SOFIWEB transformed our business. The website design is outstanding and boosted our online presence. Highly recommended!
+                </p>
+                <div class="user">
+                    <img src="c2.jpeg">
+                    <div class="info">
+                        <h5>Walter W.</h5>
+                        <p>Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Our professional website by SOFIWEB has taken our online presence to the next level, better call Sof!
+                </p>
+                <div class="user">
+                    <img src="c3.jpg">
+                    <div class="info">
+                        <h5>Emily G.</h5>
+                        <p>Company Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <h3>Contact Me</h3>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                <input type="hidden" name="access_key" value="2635f8be-caed-4bca-97af-b6707cbff128">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name:" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email:" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Type Your Message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="message.png">
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="logof.png">
+
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Projects</a></li>
+                
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
