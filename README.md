@@ -13,3 +13,5 @@ SofiWeb is a modern and stylish personal portfolio site built to showcase web de
 
 ![Services Preview](screenshot/scr1.png)  
 
+VIEW HERE: https://tsalasofia.github.io/SOFIWEB/
+
